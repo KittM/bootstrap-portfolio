@@ -14,9 +14,13 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   clear: both;
+}
+
+.bg-light {
+  background-color: #ffffff;
 }
 
 h1,
@@ -80,6 +84,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  background-color: #ffffff;;
 }
 
 nav a {
@@ -88,6 +93,7 @@ nav a {
   margin-left: 15px;
   line-height: 18px;
   color: #999;
+  background-color: #ffffff;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
